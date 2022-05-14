@@ -5,8 +5,8 @@
 Run:
 
 ```
-npm install
-npm start
+docker build . -t query-engine
+docker run --network host -p 5002:5002 -d query-engine
 ```
 
 ### cURL requests
