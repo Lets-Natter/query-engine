@@ -30,4 +30,4 @@ app.post("/events", (req, res) => {
   res.send({});
 });
 
-app.listen(5002, (req, res) => console.log("Listening on 5002"));
+app.listen(5002, "127.0.0.1", (req, res) => console.log("Listening on 5002"));
